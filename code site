@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>SHEMTOV - דף נחיתה נכסים</title>
+  <style>
+    :root{
+      --accent:#0b3b5a;
+      --accent-2:#c19a3a;
+      --bg:#f6f7f9;
+      --card:#ffffff;
+      --text:#1f2933;
+      --muted:#6b7280;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial;background:var(--bg);color:var(--text);-webkit-font-smoothing:antialiased}
+    .container{max-width:1200px;margin:18px auto;padding:0 16px}
+    header.header{display:flex;align-items:center;justify-content:space-between;padding:14px 0}
+    .brand{display:flex;align-items:center;gap:12px}
+    .brand img{width:90px;height:90px;object-fit:contain;border-radius:8px}
+    .brand .titles h1{margin:0;font-size:20px;color:var(--accent-2)} 
+    .brand .titles p{margin:0;color:var(--muted);font-size:13px}
+    .office{text-align:left;font-size:14px;color:var(--muted)}
+    .hero{display:flex;gap:18px;flex-wrap:wrap;align-items:center;padding:16px 0}
+    .hero .left{flex:1;min-width:260px}
+    .hero h2{margin:0 0 6px 0;font-size:22px}
+    .hero p{margin:0;color:var(--muted)}
+    .cta{display:flex;gap:10px;margin-top:10px}
+    .btn{background:var(--accent-2);color:white;padding:10px 14px;border-radius:10px;text-decoration:none;font-weight:700}
+    .btn.wapp{background:#25D366}
+    .listings{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:16px;margin-top:18px}
+    .card{background:var(--card);border-radius:12px;overflow:hidden;box-shadow:0 6px 20px rgba(15,23,42,0.06);display:flex;flex-direction:column}
+    .media{height:200px;position:relative;background:linear-gradient(90deg,#fff,#f8fafc);display:flex;align-items:center;justify-content:center}
+    .media img{width:100%;height:100%;object-fit:cover;display:block}
+    .info{padding:12px;display:flex;flex-direction:column;gap:6px;flex:1}
+    .info h3{margin:0;font-size:16px}
+    .meta{color:var(--muted);font-size:13px}
+    .price{font-weight:800;color:var(--accent-2);font-size:16px}
+    .actions{display:flex;gap:8px;margin-top:8px}
+    .link{flex:1;text-decoration:none;padding:8px;border-radius:8px;text-align:center;background:var(--accent);color:white;font-weight:700}
+    .small{font-size:12px;color:var(--muted)}
+    footer{margin:24px 0;padding:18px;border-radius:12px;background:linear-gradient(180deg,#fff,#fbfbfd);display:flex;justify-content:space-between;align-items:center;gap:12px;box-shadow:0 6px 18px rgba(10,10,20,0.04)}
+    @media (max-width:700px){.hero{flex-direction:column}.brand img{width:72px;height:72px}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="brand">
+        <img src="/mnt/data/635D10FA-5D91-427A-9089-875547E69A4C.png" alt="לוגו SHEMTOV">
+        <div class="titles">
+          <h1>SHEMTOV נדל"ן</h1>
+          <p>מתווכים | דירות יוקרה ומרכזיות בתל אביב והסביבה</p>
+        </div>
+      </div>
+      <div class="office">
+        <div><strong>משרד:</strong> בן יהודה / דיזנגוף</div>
+        <div class="small">053-770-7379 • זמינות לווטסאפ</div>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="left">
+        <h2>הנכסים החמים שלנו — בהשקה מיידית</h2>
+        <p>בחירת נכסים איכותיים במיקומים מרכזיים: תל אביב, רמת אביב, הרצליה והים. צרו קשר לתיאום ביקור ולפרטים טכניים.</p>
+        <div class="cta">
+          <a class="btn wapp" href="https://li-li.link/qMErnt" target="_blank" rel="noopener">שלח וואטסאפ</a>
+          <a class="btn" href="tel:0537707379">התקשר עכשיו</a>
+        </div>
+      </div>
+      <div class="right small">
+        <div><strong>משרד:</strong> בן יהודה / דיזנגוף</div>
+        <div style="margin-top:8px;color:var(--muted)">פנו אלינו ונשיב במהירות.</div>
+      </div>
+    </section>
+
+    <section class="listings">
+      <!-- נכס 1 — פנטהאוז דופלקס -->
+      <article class="card">
+        <div class="media">
+          <!-- תמונה שהעלית משמשת כאן כתמונת הנכס הראשית -->
+          <img src="/mnt/data/635D10FA-5D91-427A-9089-875547E69A4C.png" alt="פנטהאוז דופלקס — אלחריזי / אבן גבירול">
+        </div>
+        <div class="info">
+          <h3>פנטהאוז דופלקס — אלחריזי / אבן גבירול, ת״א</h3>
+          <div class="meta">174 מ"ר + 50 מ"ר מרפסת גג • קומה 5 • דופלקס מפואר</div>
+          <div class="meta">כיווני אוויר: מערב, דרום, צפון • חניה • מעלית</div>
+          <div class="price">11,500,000 ₪</div>
+          <div class="actions">
+            <a class="link" href="https://li-li.link/qMErnt" target="_blank" rel="noopener">צור קשר בווטסאפ</a>
+            <a class="link" href="tel:0537707379">התקשר</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- נכס 2 — מגדלי אביב -->
+      <article class="card">
+        <div class="media">
+          <!-- פלייסהולדר כי לא סופקו תמונות נוספות -->
+          <img src="https://via.placeholder.com/800x500?text=מגדלי+אביב+רמת+אביב" alt="מגדלי אביב — רמת אביב">
+        </div>
+        <div class="info">
+          <h3>דירת יוקרה — מגדלי אביב, רמת אביב ג׳</h3>
+          <div class="meta">268 מ"ר • 2 מרפסות של 12 מ"ר • 3 חניות • מחסן 12 מ"ר • לובי ושמירה 24/7</div>
+          <div class="price">אנא פנה לפרטים</div>
+          <div class="actions">
+            <a class="link" href="https://li-li.link/UwoBYu" target="_blank" rel="noopener">צור קשר בווטסאפ</a>
+            <a class="link" href="tel:0537707379">התקשר</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- נכס 3 — מרכז הרצליה -->
+      <article class="card">
+        <div class="media">
+          <img src="https://via.placeholder.com/800x500?text=מרכז+הרצליה" alt="דירה במרכז הרצליה">
+        </div>
+        <div class="info">
+          <h3>דירה — מרכז הרצליה</h3>
+          <div class="meta">70 מ"ר • קומה 1 • מרפסת • חניה בטאבו • 2 שירותים • מעלית • מקלט</div>
+          <div class="meta small">ועד בית: 200 ₪ • ארנונה: 500 ₪</div>
+          <div class="price">2,755,000 ₪</div>
+          <div class="actions">
+            <a class="link" href="https://li-li.link/0vYg8-" target="_blank" rel="noopener">צור קשר בווטסאפ</a>
+            <a class="link" href="tel:0537707379">התקשר</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- נכס 4 — רחוב יונה הנביא -->
+      <article class="card">
+        <div class="media">
+          <img src="https://via.placeholder.com/800x500?text=150+מטר+מהים" alt="רחוב יונה הנביא — קרוב לים">
+        </div>
+        <div class="info">
+          <h3>דירה — רחוב יונה הנביא (150 מ' מהים)</h3>
+          <div class="meta">100 מ"ר • כעת 3 חדרים עם מאסטר גדול • מרפסת 12 מ"ר • חניה תת-קרקעית • ממ"ד</div>
+          <div class="price">נא לפנות לפרטים</div>
+          <div class="actions">
+            <a class="link" href="https://li-li.link/8m-R_v" target="_blank" rel="noopener">צור קשר בווטסאפ</a>
+            <a class="link" href="tel:0537707379">התקשר</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- נכס 5 — בן יהודה / נורדאו -->
+      <article class="card">
+        <div class="media">
+          <img src="https://via.placeholder.com/800x500?text=בן+יהודה+%2F+נורדאו" alt="דירת 3 חדרים — בן יהודה">
+        </div>
+        <div class="info">
+          <h3>דירת 3 חדרים — בן יהודה / נכבדה</h3>
+          <div class="meta">50 מ"ר • קומה 1.5 • משופצת • בניין באוהאוס • כיוון דרומי • מעלית</div>
+          <div class="price">3,150,000 ₪</div>
+          <div class="actions">
+            <a class="link" href="https://li-li.link/kA1NOR" target="_blank" rel="noopener">צור קשר בווטסאפ</a>
+            <a class="link" href="tel:0537707379">התקשר</a>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <footer>
+      <div>
+        <strong>SHEMTOV נדל"ן</strong>
+        <div class="small">בן יהודה / דיזנגוף • טל: 053-770-7379</div>
+      </div>
+      <div class="small">כל הזכויות שמורות • תמונות לפורטפוליו • ט.ל.ח</div>
+    </footer>
+  </div>
+
+  <script>
+    // אם תרצה לשנות תמונה לדינמית: כאן ניתן לחבר ממשק להעלאת תמונות ולשנות src של תמונות הכרטיסים
+    // לדוגמה: document.querySelector('.card:first-child img').src = '/path/to/new-image.jpg'
+  </script>
+</body>
+</html>
